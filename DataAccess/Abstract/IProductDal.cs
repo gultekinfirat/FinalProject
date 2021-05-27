@@ -17,5 +17,6 @@ namespace DataAccess.Abstract
         List<Product> GetAllByCategory(int categoryId);
 
 
+
     }
 }
