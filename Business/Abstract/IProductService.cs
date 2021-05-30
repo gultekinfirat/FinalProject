@@ -9,5 +9,9 @@ namespace Business.Abstract
     {
         List<Product> GertAll();
 
+        List<Product> GetAllByCategoryId(int Id);
+
+        List<Product> GetByUnitPrice(decimal min, decimal max);
+
     }
 }
