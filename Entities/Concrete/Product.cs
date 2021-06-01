@@ -1,11 +1,11 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Entities.Concrete
 {
-    public class Product:IEntity// Public koymak; diğer katmanlar da bu sınıfa ulaşabilsin demektir.
+    public class Product:IEntity
     {
         public int ProductId { get; set; }
 
